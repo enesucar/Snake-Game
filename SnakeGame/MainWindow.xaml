@@ -1,0 +1,17 @@
+﻿<Window x:Class="SnakeGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SnakeGame"
+        mc:Ignorable="d"
+        Title="Yılan Oyunu" Name="win" Height="500" Width="700" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Background="Black" KeyDown="Win_KeyDown" Icon="snake.png">
+
+    <Grid Name ="panel" HorizontalAlignment="Left" Height="500" Margin="0,0,0,0" VerticalAlignment="Top" Width="700">
+        <Label Name="label1" Content="Label" HorizontalAlignment="Left" Margin="647,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,0.692" FontSize="8" Foreground="#FF47B1BB"/>
+
+
+
+    </Grid>
+</Window>
+
